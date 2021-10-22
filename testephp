@@ -1,0 +1,14 @@
+<?php
+
+echo '---------CALCULADORA---------' . PHP_EOL;
+$numero1 = '10';
+$numero2 = '20';
+
+print_r($numero1, $numero2);
+var_dump($numero1, $numero2);
+
+echo 'soma: ' . $numero1 + $numero2 . PHP_EOL;
+echo 'sub: ' . $numero1 - $numero2 . PHP_EOL;
+echo 'multi: ' . $numero1 * $numero2 . PHP_EOL;
+echo 'div: ' . $numero1 / $numero2 . PHP_EOL;
+echo 'resto div: ' . $numero1 % $numero2 . PHP_EOL;
